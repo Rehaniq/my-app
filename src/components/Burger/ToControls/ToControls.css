@@ -1,0 +1,34 @@
+.controlsSection {
+  width: 100%;
+  background-color: #cf8f2e;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  box-shadow: 0 2px 1px #ccc;
+  margin-top: 40px;
+  padding: 10px 0;
+}
+.OrderButton {
+  background-color:  #5C9210;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #0e0e0d;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 1.2em;
+  padding: 15px 30px;
+  box-shadow: 2px 2px 2px #000000;
+}
+
+.OrderButton:hover,
+.OrderButton:active {
+  background-color: #4e7812;
+  transform: scale(1.05);
+}
+
+.OrderButton:disabled {
+  background-color: #c7c6c6;
+  color: #888888;
+  cursor: not-allowed;
+  transform: none;
+}
